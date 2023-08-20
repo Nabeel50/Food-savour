@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<style>
+    .nav{
+        background-color:rgb(28, 34, 211);
+        margin: 10px;
+    }
+    .color{
+        background-color:rgb(248, 201, 112);
+    }
+    .size{
+      font-size: 20px;
+      padding: 20px;
+      color: rgb(253, 252, 252);
+      /* font-style: italic; */
+      font-weight: bold;
+    }
+    .img{
+        border: 10px solid greenyellow;
+        border-radius: 10px;
+    }
+</style>
+</head>
+<body style="background-color:bisque; width: 100%;">
+    <marquee behavior="" direction="left">
+        <h1 style="font-size: 50px; margin-top: 10px;font-weight: bold; ">Well Come On Savour Food</h1></marquee>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="baryanisli.jpg" height="500px" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Baryani</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="roost.jpg" height="500px" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Roust </h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="whitecorma.jpg" height="500px" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>White Corma</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <nav class="color navbar navbar-expand-lg bg-body-danger">
+        <!-- <a class="logo" href="#"><img src="logo.jpg" alt="Logo"></a> -->
+        <div class="nav container-fluid">
+          <a class="size navbar-brand" href="#">Savour Items:</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                
+              <li class=" nav-item">
+                <a class="size nav-link link" aria-current="page" href="Chekan Pulao.html">Chekan Pulao</a>
+              </li>
+              <li class="nav-item">
+                <a class="size nav-link" href="Chekan.html">Chicken</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="size nav-link" href="sweet.html">Sweet</a>
+              </li>
+              <li class="nav-item">
+                <a class="size nav-link" href="Drinks.html">Drinks</a>
+              </li>
+              <li class="nav-item">
+                <a class="size nav-link" href="icecream.html">Ice Cream</a>
+              </li>
+              <li class="nav-item">
+                <a class="size nav-link" href="Savour.html">Savour Crispo</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="size nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                DropDown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class=" dropdown-item" href="sideorder.html">Side Order</a></li>
+                  <li><a class=" dropdown-item" href="Daigh Order.html">Daigh Order</a></li>
+                </ul>
+              </li>
+            </ul>
+    
+            <li class="nav-item dropdown">
+              <a class="size nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Items Order
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class=" dropdown-item" href="bookorder.html">Book Order</a></li>
+              </ul></li>
+              <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+    </div>
+<!-- <div class="img">
+    <div style="display: inline; margin:5px;"> <img src="savorfoodba.jpg"  width="49%" height="300px" alt=""></div>
+    <div   style="display: inline; margin:5px;"> <img src="savourbackground.jpg"  width="49%" height="300px" alt=""></div>
+
+   
+</div>
+<div>
+    <div   style="display: inline; margin:5px;"><img src="savorfoodhal.jpg"  width="49%" height="300px" alt=""></div>
+    <div   style="display: inline; margin:5px;"> <img src="hall.jpg"  width="49%" height="300px" alt=""></div>
+  
+</div> -->
+
+<div class="display:inline">
+    <div class="row row-cols-4">
+      <div class="col"><img src="savorfoodba.jpg" width="100%" height="100%"></div>
+      <div class="col"><img src="savourbackground.jpg" width="100%" height="100%"></div>
+      <div class="col"><img src="savorfoodhal.jpg" width="100%" height="100%"></div>
+      <div class="col"><img src="hall.jpg"  width="100%" height="100%"></div>
+    </div>
+  </div>
+
+  <footer class="bg-success text-light text-center py-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Connect with us</h4>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100056698518852" class="text-light me-3"><i class="fab fa-facebook-f"><img src="fb.png" 
+                        width="30px" height="30px" alt=""></i></a>
+                    <a href="https://wa.me/qr/6JZ7FXHFPZ7NB1" class="text-light me-3"><i class="fab fa-whatsapp"><img src="watsap.png"
+                         width="30px" height="30px" alt=""></i></a>
+                    <a href="https://instagram.com/na8744332?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D" class="text-light me-3"><i class="fab fa-instagram"><img src="insta.png" 
+                        width="30px" height="30px" alt=""></i></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h4>Contact us</h4>
+                <p><i class="fas fa-envelope"></i> <a href="na8744332gmail.com" class="text-light">na8744332gmail.com</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
